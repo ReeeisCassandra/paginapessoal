@@ -1,0 +1,127 @@
+Body{
+    background-color:black;
+    width:100%;
+    height:auto;
+    margin:0 auto;
+    
+
+}
+/*
+main{
+    width: 1000px;
+    height: auto;
+    background-color: aqua;
+    float: left;
+    padding-left: 200px;
+}
+*/
+header{
+    height: 50px;
+    
+    color:chartreuse;
+    
+}
+    
+
+main{
+    
+}
+
+nav{
+    padding-top: 50px
+    text-align: justify;
+    font-family: cursive;
+    font-size: 20px;
+    
+    
+}
+
+
+ul{
+  list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;/*safari, de´pois mudar e colocar fixed*/
+    position: sticky; /*depois tirar essa linha*/
+    top:0;
+    width: 100%;
+  border-radius: 100px;
+}
+ul a{
+      border-radius: 100px;
+}
+
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active){
+    background-color: #111;
+}
+
+.active{
+    background-color:blue;
+    border-radius: 100px;
+    float: right;
+}
+.active2 {
+    background-color:blue;
+    float: right;
+    border-radius: 100px;
+}
+h1{
+     
+    text-align: center;
+    color:aliceblue;
+}
+/*aqui estou fazendo agora, rever depois*/
+h2 {
+    background-color:blue;
+    color: #333;
+    text-align: justify;
+    font-family: cursive;
+    font-size: 20px;
+      border-radius: 100px;
+   
+}
+
+
+
+footer {
+    background-color:cornflowerblue;
+    text-align: center;
+    color:white;
+    font-family: cursive;
+    font-size: 15px;
+    border-radius: 15px;
+    
+}
+section{
+    padding: 20px;
+    margin-top: 30px;
+    background-color:blue;
+    height:auto;
+    border-radius: 100px;
+    font-family: cursive;
+    font-size: 35px;
+}
+
+.form{
+    background-color:#FFFFFF;
+    color: #4CAF50;
+    font-family: cursive;
+    font-size: 25px;
+    border-radius: 100px;
+}
+
